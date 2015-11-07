@@ -4,3 +4,4 @@ set shiftwidth=4
 set softtabstop=4
 set autoindent
 :syntax on
+map <c-r> <ESC>:w<CR>:!make %< && ./%<<CR>
